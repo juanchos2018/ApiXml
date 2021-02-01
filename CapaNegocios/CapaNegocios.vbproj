@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6D642C6A-D6A4-4D9A-B2E7-35464866D5F8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>CapaNegocios</RootNamespace>
+    <AssemblyName>CapaNegocios</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>CapaNegocios.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>CapaNegocios.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Contabilidad\NAnexoComplementario_Con.vb" />
+    <Compile Include="Contabilidad\NAnexoprincipal_Con.vb" />
+    <Compile Include="Contabilidad\NDocRefNota_Con.vb" />
+    <Compile Include="Contabilidad\NNumeracionComprobante_Con.vb" />
+    <Compile Include="Contabilidad\NPlanCuenta_Con.vb" />
+    <Compile Include="Contabilidad\NTablaGeneral_Con.vb" />
+    <Compile Include="NCuotas.vb" />
+    <Compile Include="Grifo\NTipoSurtidor_Lado.vb" />
+    <Compile Include="Licitaciones\Ntbl_Conductores.vb" />
+    <Compile Include="Licitaciones\Ntbl_DepachosYura.vb" />
+    <Compile Include="Licitaciones\Ntbl_DetalleDepachosYura.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="NAduana_Detalleanticipos.vb" />
+    <Compile Include="NAduana_DetalleCobranza.vb" />
+    <Compile Include="NAlmacen.vb" />
+    <Compile Include="NArticuloCatalogo.vb" />
+    <Compile Include="Narticulo_equivalente.vb" />
+    <Compile Include="NCaja.vb" />
+    <Compile Include="NCajaVenta.vb" />
+    <Compile Include="NCambioMoneda.vb" />
+    <Compile Include="NComprobante.vb" />
+    <Compile Include="Contabilidad\NComprobante_Con.vb" />
+    <Compile Include="NComprobante_Aduana.vb" />
+    <Compile Include="NComprobante_CPE.vb" />
+    <Compile Include="NConexion.vb" />
+    <Compile Include="NContado_Compras.vb" />
+    <Compile Include="NControl_Impresion.vb" />
+    <Compile Include="NCotizacion.vb" />
+    <Compile Include="NCuentaExistencia.vb" />
+    <Compile Include="NDetalleComprobante.vb" />
+    <Compile Include="NDetalleComprobanteCompra.vb" />
+    <Compile Include="NDetalleCotizacion.vb" />
+    <Compile Include="NDetalleMovimientoEspecifico.vb" />
+    <Compile Include="NDetalleOrdenCompra.vb" />
+    <Compile Include="NDetallePreVenta.vb" />
+    <Compile Include="NDetalleVale.vb" />
+    <Compile Include="NDetalle_UsuarioCajaGeneral.vb" />
+    <Compile Include="Contabilidad\NDetComprobante_Con.vb" />
+    <Compile Include="NDetEntegados_LoteGuia.vb" />
+    <Compile Include="NDetEntega_Lote.vb" />
+    <Compile Include="NDetPreVenta_Compra_Lote.vb" />
+    <Compile Include="NDetSurtidor.vb" />
+    <Compile Include="NDetTipoSurtidor.vb" />
+    <Compile Include="NDetTraslados_Lote.vb" />
+    <Compile Include="NDetUsuarioCaja.vb" />
+    <Compile Include="NDetVentaLote.vb" />
+    <Compile Include="NDetVenta_Compra_Lote.vb" />
+    <Compile Include="NDet_Entidad.vb" />
+    <Compile Include="NDocMovAlmacen.vb" />
+    <Compile Include="NFormaVenta.vb" />
+    <Compile Include="NMailServer.vb" />
+    <Compile Include="NMensajes.vb" />
+    <Compile Include="Nmessages_error.vb" />
+    <Compile Include="NMovimiento.vb" />
+    <Compile Include="NMovimientoCaja.vb" />
+    <Compile Include="NMovimiento_Cpe.vb" />
+    <Compile Include="NNumeracion.vb" />
+    <Compile Include="NNumeracionGrifo.vb" />
+    <Compile Include="NOrdenCompra.vb" />
+    <Compile Include="NOrdenCompra_CotSap.vb" />
+    <Compile Include="NPagos.vb" />
+    <Compile Include="NParamContabilidad.vb" />
+    <Compile Include="NPedidoDespacho.vb" />
+    <Compile Include="NPlanillaPagos.vb" />
+    <Compile Include="NPreventa.vb" />
+    <Compile Include="NProveedor.vb" />
+    <Compile Include="NptBotones_acceso.vb" />
+    <Compile Include="NPtentidad.vb" />
+    <Compile Include="NPtUsuario.vb" />
+    <Compile Include="NPtUsuario_Formulario.vb" />
+    <Compile Include="NResumendiario.vb" />
+    <Compile Include="NStock.vb" />
+    <Compile Include="NStockSerie.vb" />
+    <Compile Include="NSurtidor.vb" />
+    <Compile Include="NTablaCierreDiario.vb" />
+    <Compile Include="NTablaGeneral.vb" />
+    <Compile Include="NTablita.vb" />
+    <Compile Include="NTblCobranza.vb" />
+    <Compile Include="NTblDetalleCobranza.vb" />
+    <Compile Include="Ntbl_Articulo_UnidadVenta.vb" />
+    <Compile Include="NTbl_Campana_Cupon.vb" />
+    <Compile Include="NTbl_CDR.vb" />
+    <Compile Include="Ntbl_DetalleResumenBoleta.vb" />
+    <Compile Include="NTbl_Entidad_formatos.vb" />
+    <Compile Include="NTbl_Gasto_Prod.vb" />
+    <Compile Include="Ntbl_Lic_DetalleProcesos.vb" />
+    <Compile Include="Ntbl_Lic_Obras_Procesos.vb" />
+    <Compile Include="Ntbl_Lic_PlazoEntrega_Obra.vb" />
+    <Compile Include="Ntbl_Lic_Postulantes.vb" />
+    <Compile Include="Ntbl_Liquidacion_Caja.vb" />
+    <Compile Include="NTbl_Movimientos_Cupones.vb" />
+    <Compile Include="Ntbl_movimiento_puntos.vb" />
+    <Compile Include="NTbl_Parametros_puntos.vb" />
+    <Compile Include="NTbl_ParametroTicket.vb" />
+    <Compile Include="NTbl_ResumenDiario.vb" />
+    <Compile Include="NTbl_Surtidor_Lado.vb" />
+    <Compile Include="NTbl_Usuario_Master.vb" />
+    <Compile Include="NTipoSurtidor.vb" />
+    <Compile Include="NTran.vb" />
+    <Compile Include="NTransportista.vb" />
+    <Compile Include="NUsuario.vb" />
+    <Compile Include="NUsuarioCaja.vb" />
+    <Compile Include="NUsuarioCajaGeneral.vb" />
+    <Compile Include="NVales.vb" />
+    <Compile Include="NVencimientoServicios.vb" />
+    <Compile Include="NVendedor.vb" />
+    <Compile Include="Nunidadequivalenxarticulo.vb" />
+    <Compile Include="Ntbl_TipoMoneda.vb" />
+    <Compile Include="NWebComprobante.vb" />
+    <Compile Include="Usuario_Accesos.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaDatos\CapaDatos.vbproj">
+      <Project>{6403035a-02da-4f53-be97-e885050d4d9b}</Project>
+      <Name>CapaDatos</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

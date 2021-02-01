@@ -1,0 +1,14 @@
+C:\PROYECTOS2\Pedidos\sigmaerp\CapaNegocios\bin\Debug\CapaNegocios.dll
+C:\PROYECTOS2\Pedidos\sigmaerp\CapaNegocios\bin\Debug\CapaNegocios.pdb
+C:\PROYECTOS2\Pedidos\sigmaerp\CapaNegocios\bin\Debug\CapaNegocios.xml
+C:\PROYECTOS2\Pedidos\sigmaerp\CapaNegocios\bin\Debug\CapaDatos.dll
+C:\PROYECTOS2\Pedidos\sigmaerp\CapaNegocios\bin\Debug\CapaDatos.pdb
+C:\PROYECTOS2\Pedidos\sigmaerp\CapaNegocios\bin\Debug\CapaDatos.xml
+C:\PROYECTOS2\Pedidos\sigmaerp\CapaNegocios\obj\Debug\CapaNegocios.vbprojAssemblyReference.cache
+C:\PROYECTOS2\Pedidos\sigmaerp\CapaNegocios\obj\Debug\CapaNegocios.Resources.resources
+C:\PROYECTOS2\Pedidos\sigmaerp\CapaNegocios\obj\Debug\CapaNegocios.vbproj.GenerateResource.cache
+C:\PROYECTOS2\Pedidos\sigmaerp\CapaNegocios\obj\Debug\CapaNegocios.vbproj.CoreCompileInputs.cache
+C:\PROYECTOS2\Pedidos\sigmaerp\CapaNegocios\obj\Debug\CapaNegocios.vbproj.CopyComplete
+C:\PROYECTOS2\Pedidos\sigmaerp\CapaNegocios\obj\Debug\CapaNegocios.dll
+C:\PROYECTOS2\Pedidos\sigmaerp\CapaNegocios\obj\Debug\CapaNegocios.xml
+C:\PROYECTOS2\Pedidos\sigmaerp\CapaNegocios\obj\Debug\CapaNegocios.pdb
